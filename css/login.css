@@ -1,0 +1,61 @@
+@import 'reset.css';
+@import 'style.css';
+
+body {
+  background-color: #e6e8e78c;
+}
+
+.title {
+  text-transform: none;
+  font-size: 20px;
+  font-weight: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+input {
+  margin: auto;
+  font-size: 15px;
+  width: 40%;
+}
+
+.data {
+  margin: auto;
+  width: 40%;
+}
+
+legend {
+  text-transform: none;
+}
+
+.data:focus {
+  background-color: #fff;
+}
+
+@media only screen and (max-width:768px) {
+
+  input {
+    width: 70%;
+  }
+  .data {
+    width: 70%;
+  }
+  nav a {
+    color: var(--col2);
+  }
+
+}
+
+@media only screen and (min-width:768px) {
+
+  input {
+    width: 50%;
+  }
+  .data {
+    width: 50%;
+  }
+  nav a {
+    color: var(--col2);
+  }
+
+}

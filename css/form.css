@@ -1,0 +1,95 @@
+@import 'reset.css';
+@import 'style.css';
+
+body {
+    background-color: #e6e8e78c;
+}
+
+.footer_form h3 {
+    padding: 20px;
+    color: black;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.input {
+    text-align: center;
+}
+
+legend {
+    margin: auto;
+}
+
+.data {
+    margin: auto;
+}
+
+.data:focus {
+    background-color: #fff;
+}
+
+.contact {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#form_level {
+    margin: auto;
+    display: block;
+    width: 50%;
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .1);
+    border: .1rem solid var(--col2);
+    border-radius: 4px;
+    outline: 0;
+    font-family: inherit;
+}
+
+h3 {
+    text-transform: none;
+    font-size: 15px;
+    letter-spacing: normal;
+}
+
+.contact_info {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+
+@media only screen and (max-width:768px) {
+    input {
+        width: 70%;
+    }
+
+    .data {
+        width: 70%;
+    }
+    .poziom {
+        width: 70%;
+    }
+
+    nav a {
+        color: var(--col2);
+    }
+
+}
+
+@media only screen and (min-width:768px) {
+    input {
+        width: 50%;
+    }
+
+    .data {
+        width: 50%;
+    }
+
+    nav a {
+        color: var(--col2);
+    }
+
+
+}
